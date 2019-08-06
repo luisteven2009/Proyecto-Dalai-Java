@@ -26,11 +26,12 @@ public class ZonaLibro {
     Carrito pago = new Carrito();
     Inventario invent = new Inventario();
     Producto product = new Producto();
+    Usuario usuario = new Usuario();
     
     int opcion;
     do { 
         System.out.println("Bienvenidos a ZONALIBRO \n-----MENÚ DE OPCIONES-----");
-        System.out.println("1. Clientes \n2. Empleados \n0. Salir");
+        System.out.println("1. Clientes \n2. Empleados \n3. Registro \n0. Salir");
         //debería colocarse un password por si un cliente digita 2
         opcion = leer.nextInt();
         switch(opcion) {
@@ -39,6 +40,8 @@ public class ZonaLibro {
             break;    
             case 2:
                 invent.Categoria();
+            case 3:
+                usuario.Registro();
             break;    
             
         }//fin switch
