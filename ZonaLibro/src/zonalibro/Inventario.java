@@ -13,66 +13,105 @@ import java.util.Scanner;
  */
 public class Inventario {
     
-    Scanner leer = new Scanner(System.in);
+    Scanner leer = new Scanner(System.in);    
     
     public String novela[] = {"Anna Karenina", "La Dama de las Camelias", "El Conde de Montecristo"};
     private int i = 3; //cantidad actual ocupada en el array
     private int capac = 7;
     private int agregar = 0;
     
+    //Creacion de objetos de las clases
+    Switch_inv_LibrosVenta switch_LV = new Switch_inv_LibrosVenta();
+    Switch_inv_LibrosPres switch_LP = new Switch_inv_LibrosPres();
+    Switch_inv_impresion switch_imp = new Switch_inv_impresion();
+    Inv_infoPersonal info_personal = new Inv_infoPersonal();
+    
+       
+    //Inicializacion de usuarios y contrasenas
+    String u = "";
+    String c = "";
+    String u_felipe = "fhidargue";
+    String c_felipe = "f123";
+    String u_steven = "luisteven";
+    String c_steven = "l123";
+    String u_wendy = "wendy";
+    String c_wendy = "w123";
+    String u_meli = "meli";
+    String c_meli = "m123";
+    
     
     public void Categoria() {   
         
-        //Por el momento funciona la opción 1
-        int elegir = 0;
-        System.out.println("Agregar Inventario: \n1. Libros Venta \n2. Libros Préstamo \n3. Accesorios"); 
-        elegir = leer.nextInt();
-        switch(elegir) {
-            case 1: 
-                //Por el momento funciona la opción 1, una vez terminada las otras opciones tienen la misma estructura
-                System.out.println("Género: \n1. Novela \n2. Policiaco \n2. Terror");
-                elegir = leer.nextInt();
-                switch (elegir) {
-                    case 1:
-                        novela= new String[capac];
-                        System.out.println("Cantidad de libros a agregar: ");
-                        agregar = leer.nextInt();
-                            if (agregar < capac) {
-          //Acá está el problema de agregar los datos al final, sin borrar los que ya existen
-                                capac -= i;
-                                for(i=3; i<novela.length; i++) {
-                                    String temp = "";
-                                    System.out.println("Ingrese el título: ");
-                                    temp = leer.nextLine();
-                                    
-                                    novela[i] = temp;                                    
-                                    capac --;
-                                    System.out.println("Posiciones disponibles: "+(capac));                                                                                                     
-                                }//fin for                                   
-                            }//fin if
-                            else{
-                                System.out.println("No hay espacio disponible para agregar libros");    
-                            }//fin else                             
-                    break;
-                }//fin switch
-        }//fin switch     
         
-        System.out.println("Inventario libros: ");
-        System.out.println(Arrays.toString(novela));
-    }//Fin Categoria
-
-    
-    //Constructor para poder mostrar las variales en otras clases
-    public Inventario() {
-    }
-
-    //get-set por si se deben mostrar estas variables en otras clases, sino luego se borran
-    public String[] getNovela() {
-        return novela;
-    }
-
-    public void setNovela(String[] novela) {
-        this.novela = novela;
-    }
+            System.out.println("Ingrese su identificación de empleado o usuario: ");
+            u = leer.next();
+     
+            if(u.equals(u_felipe)||u.equals(u_steven)||u.equals(u_wendy)||u.equals(u_meli)){
+            
+                System.out.println("Ingrese la contraseña: "); 
+                c = leer.next();
+                
+                if(c.equals(c_felipe)||c.equals(c_steven)||c.equals(c_wendy)||c.equals(c_meli)){
+                    
+                int elegir_inv = 0;
+                int decision = 0;
+                
+                do{
+                
+                System.out.println("---------------------");
+                System.out.println("Modificar Inventario: \n1. Libros Venta \n2. Libros Préstamo \n3. Impresión de Inventarios\n4. Información personal"); 
+                elegir_inv = leer.nextInt();
+                
+                switch(elegir_inv) {
+                
+                        case 1: 
+                            switch_LV.inv_LV();
+                        break;
+                        
+                        case 2:
+                            switch_LP.inv_LP();
+                        break;   
+                        
+                        case 3:
+                            switch_imp.inv_impresion();
+                        break;    
+                        
+                        case 4:
+                            info_personal.info_empleado();
+                        break;
+                                 
+                                    
+                            
+                }// Fin switch elegir inventario
+                
+                
+                        
+                  
+        
+                  
+            System.out.println("-----------------------------------");   
+            System.out.println("Quiere realizar otra modificación?\n1. Si\n2. No");
+            decision = leer.nextInt();
+            
+            }while(decision!=2);
+                }// Fin IF verificacion de contrasena
+                
+                
+            else{
+                System.out.println("Contraseña incorrecta, intente nuevamente.");
+            }
+            }// Fin IF verificacion de usuario
+            
+            else{
+                System.out.println("Usuario incorrecto, intente nuevamente.");        
+                        }
+            
+                            
+         
+        
+           
+        
+        }//Fin Categoria
+             
     
 }//fin Inventario

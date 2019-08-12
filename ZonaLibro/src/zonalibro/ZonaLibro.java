@@ -41,6 +41,7 @@ public class ZonaLibro {
             break;    
             case 2:
                 invent.Categoria();
+            break;
             case 3:
                 usuario.Registro();
             break;    
