@@ -15,12 +15,15 @@ public class Producto {
     Inventario invent = new Inventario();
     Carrito pago = new Carrito();
     
-    
+    String[] arrayProduct = new String[3];
+    String[] formularioLibroNuevo = new String[]{};
     int opcion = 0;
     int i;
     String libro;
     
+    
     public void Comprar() {
+        
         do {
         System.out.println("Digite el libro que desea: ");
         libro = leer.nextLine();
@@ -44,8 +47,16 @@ public class Producto {
         }//fin if                   
         }//fin if  
         else {
-        //Acá iría el formulario para solicitarlo
+        //Acá iría el formulario para solicitarlo 
         System.out.println("Libro no disponible");
+            System.out.println("Digite la siguiente información del libro que desea solicitar: ");
+            System.out.println("1. nombre del libro\n"+"2. nombre del autor \n"+"3. año de publicación\n");   
+             for(int i=0;i<arrayProduct.length;i++){
+            arrayProduct[i]=leer.nextLine();
+        }//fin for
+         //fin for ingreso de datos
+        
+        System.out.println("Felicidades, su solicitud para el libro "+arrayProduct[0]+ " se procesó exitosamente");
         } //fin else
        }//fin for
        
