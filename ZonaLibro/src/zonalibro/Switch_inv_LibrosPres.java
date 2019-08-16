@@ -17,31 +17,11 @@ public Switch_inv_LibrosPres() {
     
 }// Fin constructor    
 
-public void inv_LP(){
+public void inv_LP(int cant_a1_p, int cant_a2_p, int cant_a3_p, int cant_cf1_p, int cant_cf2_p, int cant_cf3_p, int cant_ch1_p, int cant_ch2_p, int cant_ch3_p,
+int cant_g1_p, int cant_g2_p, int cant_g3_p ,int cant_pl1_p, int cant_pl2_p, int cant_pl3_p, int cant_pa1_p, int cant_pa2_p, int cant_pa3_p, int cant_f1_p,
+int cant_f2_p, int cant_f3_p){
     
-    // Inicializacion de las cantidades de inventario por genero
-        int cant_a1_p = 23;
-        int cant_a2_p = 21;
-        int cant_a3_p = 32;
-        int cant_cf1_p = 34;
-        int cant_cf2_p = 12;
-        int cant_cf3_p = 32;
-        int cant_ch1_p = 54;
-        int cant_ch2_p = 65;
-        int cant_ch3_p = 42;
-        int cant_g1_p = 21;
-        int cant_g2_p = 35;
-        int cant_g3_p = 24;
-        int cant_pl1_p = 17;
-        int cant_pl2_p = 26;
-        int cant_pl3_p = 34;
-        int cant_pa1_p = 28;
-        int cant_pa2_p = 10;
-        int cant_pa3_p = 23;
-        int cant_f1_p = 19;
-        int cant_f2_p = 18;
-        int cant_f3_p = 17;
-    
+       
     //Vectores de 3 libros por genero
     String[] g_a = new String[3];
     g_a[0] = "La Odisea";
@@ -79,7 +59,7 @@ public void inv_LP(){
     g_f[2] = "El Camino de las Sombras";
     
     //Inicializacion de las variables 
-   int elegir_genero = 0;
+    int elegir_genero = 0;
     int elegir_libro = 0;
     int elegir_sr = 0;
     int modif = 0;

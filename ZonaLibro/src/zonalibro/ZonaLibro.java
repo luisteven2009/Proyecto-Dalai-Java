@@ -16,10 +16,8 @@ public class ZonaLibro {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        /*Los productos deberían manipularse por medio de una matriz multidimensional de diferentes tipos de datos. 
-        Como aún no se ha estudiado, por el momento se utiliza un array para asociar los títulos al tipo de producto
-        Una vez se adquiera el conocimiento al título se va a asociar el autor, idioma, precio, disponibilidad...
-        */
+        
+       
             
     Scanner leer = new Scanner(System.in);
         

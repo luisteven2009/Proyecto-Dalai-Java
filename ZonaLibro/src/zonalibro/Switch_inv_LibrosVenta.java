@@ -16,31 +16,12 @@ public Switch_inv_LibrosVenta() {
     
 }// Fin constructor
 
-public void inv_LV() {
+public void inv_LV(int cant_a1_v, int cant_a2_v, int cant_a3_v, int cant_cf1_v, int cant_cf2_v, int cant_cf3_v, int cant_ch1_v,
+int cant_ch2_v, int cant_ch3_v, int cant_g1_v, int cant_g2_v, int cant_g3_v, int cant_pl1_v, int cant_pl2_v, int cant_pl3_v, int cant_pa1_v,
+int cant_pa2_v, int cant_pa3_v, int cant_f1_v, int cant_f2_v, int cant_f3_v){
     
-    // Inicializacion de las cantidades de inventario por genero
-        int cant_a1_v = 54;
-        int cant_a2_v = 65;
-        int cant_a3_v = 43;
-        int cant_cf1_v = 54;
-        int cant_cf2_v = 23;
-        int cant_cf3_v = 15;
-        int cant_ch1_v = 76;
-        int cant_ch2_v = 54;
-        int cant_ch3_v = 67;
-        int cant_g1_v = 87;
-        int cant_g2_v = 16;
-        int cant_g3_v = 65;
-        int cant_pl1_v = 43;
-        int cant_pl2_v = 51;
-        int cant_pl3_v = 52;
-        int cant_pa1_v = 53;
-        int cant_pa2_v = 65;
-        int cant_pa3_v = 43;
-        int cant_f1_v = 76;
-        int cant_f2_v = 43;
-        int cant_f3_v = 41;
-    
+     
+        
      //Vectores de 3 libros por genero
     String[] g_a = new String[3];
     g_a[0] = "La Odisea";
@@ -83,8 +64,11 @@ public void inv_LV() {
     int elegir_sr = 0;
     int modif = 0;
     
-                                System.out.println("Género: \n1. Aventura\n2. Ciencia Ficción\n3. Cuentos de Hadas\n4. Gótica\n5. Policíaca\n6. Paranormal\n7. Fantástica");
-                                elegir_genero = leer.nextInt();
+    
+                                
+                                    System.out.println("Género: \n1. Aventura\n2. Ciencia Ficción\n3. Cuentos de Hadas\n4. Gótica\n5. Policíaca\n6. Paranormal\n7. Fantástica");
+                                
+                                    elegir_genero = leer.nextInt();
                         
                                     switch (elegir_genero) {
                         
@@ -509,11 +493,37 @@ public void inv_LV() {
                                             }
                                             
                                             break;
+                                            
     
     
 }// Fin switch elegir libro
 }// Fin switch elegir genero
-
+                                    
+                                    int decision = 0;
+                                    
+                                        System.out.println("Quisiera una impresion del inventario de todos lo libros para la venta?\n1.Si\n2.No");
+                                        decision = leer.nextInt();
+                                        
+                                        if(decision!=2){
+                                        System.out.println("********************************************");
+                                        System.out.println("------------------Aventura------------------");
+                                        System.out.println("" +g_a[0]+ ": " +cant_a1_v+ "\n" +g_a[1]+ ": " +cant_a2_v+ "\n" +g_a[2]+ ": " +cant_a3_v);
+                                        System.out.println("---------------Ciencia Ficción--------------");
+                                        System.out.println("" +g_cf[0]+ ": " +cant_cf1_v+ "\n" +g_cf[1]+ ": " +cant_cf2_v+ "\n" +g_cf[2]+ ": " +cant_cf3_v);
+                                        System.out.println("---------------Cuentos de Hadas-------------");
+                                        System.out.println("" +g_ch[0]+ ": " +cant_ch1_v+ "\n" +g_ch[1]+ ": " +cant_ch2_v+ "\n" +g_ch[2]+ ": " +cant_ch3_v);
+                                        System.out.println("-------------------Gótica-------------------");
+                                        System.out.println("" +g_g[0]+ ": " +cant_g1_v+ "\n" +g_g[1]+ ": " +cant_g2_v+ "\n" +g_g[2]+ ": " +cant_g3_v);
+                                        System.out.println("------------------Policíaca-----------------");
+                                        System.out.println("" +g_pl[0]+ ": " +cant_pl1_v+ "\n" +g_pl[1]+ ": " +cant_pl2_v+ "\n" +g_pl[2]+ ": " +cant_pl3_v);
+                                        System.out.println("------------------Paranormal----------------");
+                                        System.out.println("" +g_pa[0]+ ": " +cant_pa1_v+ "\n" +g_pa[1]+ ": " +cant_pa2_v+ "\n" +g_pa[2]+ ": " +cant_pa3_v);
+                                        System.out.println("------------------Fantástica-----------------");
+                                        System.out.println("" +g_f[0]+ ": " +cant_f1_v+ "\n" +g_f[1]+ ": " +cant_f2_v+ "\n" +g_f[2]+ ": " +cant_f3_v);
+                                        System.out.println("********************************************");
+                                        }
+                                        
+                                    
 }// Fin metodo inv_LV
 
 }// Fin de la clase Switch_inv_LibrosVenta
