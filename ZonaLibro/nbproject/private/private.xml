@@ -1,19 +1,18 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
-    </open-files>
-</project-private>
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-f721d50a3a5345a14f93bb43a5feab567ac5f649/ZonaLibro/src/zonalibro/ZonaLibro.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Switch_inv_LibrosVenta.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/EnvioDomicilio.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Switch_inv_impresion.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Inventario.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Usuario.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Carrito.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Producto.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Inv_infoPersonal.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/ZonaLibro.java</file>
+            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Switch_inv_LibrosPres.java</file>
         </group>
     </open-files>
 </project-private>
->>>>>>> 91656cc474ce5aae98f1e371bdbd516110b55657
