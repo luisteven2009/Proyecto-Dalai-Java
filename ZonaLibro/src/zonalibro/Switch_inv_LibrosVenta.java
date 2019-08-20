@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -12,34 +13,35 @@ import java.util.Scanner;
 public class Switch_inv_LibrosVenta {
 Scanner leer = new Scanner(System.in); 
 
-// Inicializacion de las cantidades de inventario por genero
-public int cant_a1_v = 54;
-public int cant_a2_v = 65;
-public int cant_a3_v = 43;
-public int cant_cf1_v = 54;
-public int cant_cf2_v = 23;
-public int cant_cf3_v = 15;
-public int cant_ch1_v = 76;
-public int cant_ch2_v = 54;
-public int cant_ch3_v = 67;
-public int cant_g1_v = 87;
-public int cant_g2_v = 16;
-public int cant_g3_v = 65;
-public int cant_pl1_v = 43;
-public int cant_pl2_v = 51;
-public int cant_pl3_v = 52;
-public int cant_pa1_v = 53;
-public int cant_pa2_v = 65;
-public int cant_pa3_v = 43;
-public int cant_f1_v = 76;
-public int cant_f2_v = 43;
-public int cant_f3_v = 41;
     
 public Switch_inv_LibrosVenta() {
     
 }// Fin constructor
 
 public void inv_LV() {
+    
+    // Inicializacion de las cantidades de inventario por genero
+    int cant_a1_v = 54;
+    int cant_a2_v = 65;
+    int cant_a3_v = 43;
+    int cant_cf1_v = 54;
+    int cant_cf2_v = 23;
+    int cant_cf3_v = 15;
+    int cant_ch1_v = 76;
+    int cant_ch2_v = 54;
+    int cant_ch3_v = 67;
+    int cant_g1_v = 87;
+    int cant_g2_v = 16;
+    int cant_g3_v = 65;
+    int cant_pl1_v = 43;
+    int cant_pl2_v = 51;
+    int cant_pl3_v = 52;
+    int cant_pa1_v = 53;
+    int cant_pa2_v = 65;
+    int cant_pa3_v = 43;
+    int cant_f1_v = 76;
+    int cant_f2_v = 43;
+    int cant_f3_v = 41;
     
     
      //Vectores de 3 libros por genero
@@ -516,5 +518,6 @@ public void inv_LV() {
 }// Fin switch elegir genero
 
 }// Fin metodo inv_LV
+
 
 }// Fin de la clase Switch_inv_LibrosVenta

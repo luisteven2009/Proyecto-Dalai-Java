@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package zonalibro;
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -39,9 +38,53 @@ public class Inventario {
     String u_meli = "meli";
     String c_meli = "m123";
     
+     //Ventas
+        int cant_a1_v = 54;
+        int cant_a2_v = 65;
+        int cant_a3_v = 43;
+        int cant_cf1_v = 54;
+        int cant_cf2_v = 23;
+        int cant_cf3_v = 15;
+        int cant_ch1_v = 76;
+        int cant_ch2_v = 54;
+        int cant_ch3_v = 67;
+        int cant_g1_v = 87;
+        int cant_g2_v = 16;
+        int cant_g3_v = 65;
+        int cant_pl1_v = 43;
+        int cant_pl2_v = 51;
+        int cant_pl3_v = 52;
+        int cant_pa1_v = 53;
+        int cant_pa2_v = 65;
+        int cant_pa3_v = 43;
+        int cant_f1_v = 76;
+        int cant_f2_v = 43;
+        int cant_f3_v = 41;
+        
+        //Prestamos
+        int cant_a1_p = 23;
+        int cant_a2_p = 21;
+        int cant_a3_p = 32;
+        int cant_cf1_p = 34;
+        int cant_cf2_p = 12;
+        int cant_cf3_p = 32;
+        int cant_ch1_p = 54;
+        int cant_ch2_p = 65;
+        int cant_ch3_p = 42;
+        int cant_g1_p = 21;
+        int cant_g2_p = 35;
+        int cant_g3_p = 24;
+        int cant_pl1_p = 17;
+        int cant_pl2_p = 26;
+        int cant_pl3_p = 34;
+        int cant_pa1_p = 28;
+        int cant_pa2_p = 10;
+        int cant_pa3_p = 23;
+        int cant_f1_p = 19;
+        int cant_f2_p = 18;
+        int cant_f3_p = 17;
     
     public void Categoria() {   
-        
         
             System.out.println("Ingrese su identificación de empleado o usuario: ");
             u = leer.next();
@@ -59,7 +102,7 @@ public class Inventario {
                 do{
                 
                 System.out.println("---------------------");
-                System.out.println("Modificar Inventario: \n1. Libros Venta \n2. Libros Préstamo \n3. Impresión de Inventarios\n4. Información personal"); 
+                System.out.println("Modificar Inventario: \n1. Libros Venta \n2. Libros Préstamo \n3. Información personal"); 
                 elegir_inv = leer.nextInt();
                 
                 switch(elegir_inv) {
@@ -73,10 +116,6 @@ public class Inventario {
                         break;   
                         
                         case 3:
-                            switch_imp.inv_impresion();
-                        break;    
-                        
-                        case 4:
                             info_personal.info_empleado();
                         break;
                                  

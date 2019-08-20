@@ -41,7 +41,7 @@ public void inv_LP(){
         int cant_f1_p = 19;
         int cant_f2_p = 18;
         int cant_f3_p = 17;
-    
+       
     //Vectores de 3 libros por genero
     String[] g_a = new String[3];
     g_a[0] = "La Odisea";
@@ -79,7 +79,7 @@ public void inv_LP(){
     g_f[2] = "El Camino de las Sombras";
     
     //Inicializacion de las variables 
-   int elegir_genero = 0;
+    int elegir_genero = 0;
     int elegir_libro = 0;
     int elegir_sr = 0;
     int modif = 0;

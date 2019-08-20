@@ -165,7 +165,7 @@ public class Producto {
                         if(opcion==1) {
                             pago.SumProduct +=pago.precio;  
                             
-                            if (g_a[i].equalsIgnoreCase(g_a[0])) {
+                            /*if (g_a[i].equalsIgnoreCase(g_a[0])) {
                                 compraLV.cant_a1_v--;
                             }//fin if
                             else if (g_a[i].equalsIgnoreCase(g_a[1])) {
@@ -173,7 +173,7 @@ public class Producto {
                             }//fin if
                             else if (g_a[i].equalsIgnoreCase(g_a[2])) {
                                 compraLV.cant_a3_v--;
-                            }//fin if
+                            }//fin if*/
                         }//fin if                   
                     }//fin if  
                 }//fin for
@@ -196,7 +196,7 @@ public class Producto {
                         if(opcion==1) {
                             pago.SumProduct +=pago.precio;
                             
-                            if (g_cf[i].equalsIgnoreCase(g_cf[0])) {
+                            /*if (g_cf[i].equalsIgnoreCase(g_cf[0])) {
                                 compraLV.cant_cf1_v--;
                             }//fin if
                             else if (g_cf[i].equalsIgnoreCase(g_cf[1])) {
@@ -204,7 +204,7 @@ public class Producto {
                             }//fin if
                             else if (g_cf[i].equalsIgnoreCase(g_cf[2])) {
                                 compraLV.cant_cf3_v--;
-                            }//fin if
+                            }//fin if*/
                         }//fin if                   
                     }//fin if  
                 }//fin for
@@ -226,7 +226,8 @@ public class Producto {
         //pago: objeto para mostrar las variables de la clase Carrito   
                         if(opcion==1) {
                             pago.SumProduct +=pago.precio; 
-                            if (g_ch[i].equalsIgnoreCase(g_ch[0])) {
+                            
+                            /*if (g_ch[i].equalsIgnoreCase(g_ch[0])) {
                                 compraLV.cant_ch1_v--;
                             }//fin if
                             else if (g_ch[i].equalsIgnoreCase(g_ch[1])) {
@@ -234,7 +235,7 @@ public class Producto {
                             }//fin if
                             else if (g_ch[i].equalsIgnoreCase(g_ch[2])) {
                                 compraLV.cant_ch3_v--;
-                            }//fin if
+                            }//fin if*/
                         }//fin if                   
                     }//fin if  
                 }//fin for
@@ -257,7 +258,7 @@ public class Producto {
                         if(opcion==1) {
                             pago.SumProduct +=pago.precio;
                             
-                            if (g_g[i].equalsIgnoreCase(g_g[0])) {
+                            /*if (g_g[i].equalsIgnoreCase(g_g[0])) {
                                 compraLV.cant_g1_v--;
                             }//fin if
                             else if (g_g[i].equalsIgnoreCase(g_g[1])) {
@@ -265,7 +266,7 @@ public class Producto {
                             }//fin if
                             else if (g_g[i].equalsIgnoreCase(g_g[2])) {
                                 compraLV.cant_g3_v--;
-                            }//fin if
+                            }//fin if*/
                         }//fin if                   
                     }//fin if  
                 }//fin for
@@ -288,7 +289,7 @@ public class Producto {
                         if(opcion==1) {
                             pago.SumProduct +=pago.precio; 
                             
-                            if (g_pl[i].equalsIgnoreCase(g_pl[0])) {
+                            /*if (g_pl[i].equalsIgnoreCase(g_pl[0])) {
                                 compraLV.cant_pl1_v--;
                             }//fin if
                             else if (g_pl[i].equalsIgnoreCase(g_pl[1])) {
@@ -296,7 +297,7 @@ public class Producto {
                             }//fin if
                             if (g_pl[i].equalsIgnoreCase(g_pl[2])) {
                                 compraLV.cant_pl3_v--;
-                            }//fin if
+                            }//fin if*/
                         }//fin if                   
                     }//fin if  
                 }//fin for
@@ -319,7 +320,7 @@ public class Producto {
                         if(opcion==1) {
                             pago.SumProduct +=pago.precio;   
                             
-                            if (g_pa[i].equalsIgnoreCase(g_pa[0])) {
+                            /*if (g_pa[i].equalsIgnoreCase(g_pa[0])) {
                                 compraLV.cant_pa1_v--;
                             }//fin if
                             else if (g_pa[i].equalsIgnoreCase(g_pa[1])) {
@@ -327,7 +328,7 @@ public class Producto {
                             }//fin if
                             if (g_pa[i].equalsIgnoreCase(g_pa[2])) {
                                 compraLV.cant_pa3_v--;
-                            }//fin if
+                            }//fin if*/
                         }//fin if                   
                     }//fin if  
                 }//fin for
@@ -350,7 +351,7 @@ public class Producto {
                         if(opcion==1) {
                             pago.SumProduct +=pago.precio;   
                             
-                            if (g_f[i].equalsIgnoreCase(g_f[0])) {
+                            /*if (g_f[i].equalsIgnoreCase(g_f[0])) {
                                 compraLV.cant_f1_v--;
                             }//fin if
                             else if (g_f[i].equalsIgnoreCase(g_f[1])) {
@@ -358,7 +359,7 @@ public class Producto {
                             }//fin if
                             if (g_f[i].equalsIgnoreCase(g_f[2])) {
                                 compraLV.cant_f3_v--;
-                            }//fin if
+                            }//fin if*/
                         }//fin if                   
                     }//fin if  
                 }//fin for
