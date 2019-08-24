@@ -1,35 +1,18 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Switch_inv_LibrosVenta.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/EnvioDomicilio.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Switch_inv_impresion.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Inventario.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Usuario.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Carrito.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Producto.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Inv_infoPersonal.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/ZonaLibro.java</file>
-            <file>file:/D:/DOCUMENTOS/Usuario.user-PC/Documents/GitHub/Proyecto-Dalai-Java/ZonaLibro/src/zonalibro/Switch_inv_LibrosPres.java</file>
-        </group>
-    </open-files>
-</project-private>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Producto.java</file>
-            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Switch_inv_LibrosVenta.java</file>
             <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Switch_inv_LibrosPres.java</file>
+            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Switch_inv_LibrosVenta.java</file>
+            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Usuario.java</file>
             <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Inv_infoPersonal.java</file>
-            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Inventario.java</file>
+            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Producto.java</file>
+            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/EnvioDomicilio.java</file>
+            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Carrito.java</file>
             <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/ZonaLibro.java</file>
+            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Switch_inv_impresion.java</file>
+            <file>file:/C:/Users/felip/Downloads/Proyecto-Dalai-Java-master/ZonaLibro/src/zonalibro/Inventario.java</file>
         </group>
     </open-files>
 </project-private>
->>>>>>> aa29bc013c0a6b9ae3187aad372c5458fe55d208
