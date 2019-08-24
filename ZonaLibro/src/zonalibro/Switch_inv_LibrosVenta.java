@@ -46,39 +46,39 @@ public void inv_LV() {
     
      //Vectores de 3 libros por genero
     String[] g_a = new String[3];
-    g_a[0] = "La Odisea";
-    g_a[1] = "Harry Potter";
-    g_a[2] = "Hojas perdidas";
+    g_a[0] = "Harry Potter";
+    g_a[1] = "Hojas perdidas";
+    g_a[2] = "La Odisea";
     
     String[] g_cf = new String[3];
-    g_cf[0] = "Star Wars";
-    g_cf[1] = "La Guerra de los Mundos";
-    g_cf[2] = "Soy Leyenda";
+    g_cf[0] = "La Guerra de los Mundos";
+    g_cf[1] = "Soy Leyenda";
+    g_cf[2] = "Star Wars";
     
     String[] g_ch = new String[3];
-    g_ch[0] = "Rapunzel";
-    g_ch[1] = "Blanca Nieves";
-    g_ch[2] = "El Patito Feo";
+    g_ch[0] = "Blanca Nieves";
+    g_ch[1] = "El Patito Feo";
+    g_ch[2] = "Rapunzel";
     
     String[] g_g = new String[3];
-    g_g[0] = "Frankenstein";
+    g_g[0] = "El Fantasma de la ópera";
     g_g[1] = "El Monje";
-    g_g[2] = "El Fantasma de la ópera";
+    g_g[2] = "Frankenstein";
     
     String[] g_pl = new String[3];
-    g_pl[0] = "No cierres los ojos";
-    g_pl[1] = "La pareja de al lado";
-    g_pl[2] = "La tristeza del Samurai";
+    g_pl[0] = "La pareja de al lado";
+    g_pl[1] = "La tristeza del Samurai";
+    g_pl[2] = "No cierres los ojos";
     
     String[] g_pa = new String[3];
     g_pa[0] = "Alados";
-    g_pa[1] = "Sobrenatural";
-    g_pa[2] = "Pasaje al Misterio";
+    g_pa[1] = "Pasaje al Misterio";
+    g_pa[2] = "Sobrenatural";
     
     String[] g_f = new String[3];
-    g_f[0] = "Los Jardines de la Luna";
-    g_f[1] = "Todas las Hadas del Reino";
-    g_f[2] = "El Camino de las Sombras";
+    g_f[0] = "El Camino de las Sombras";
+    g_f[1] = "Los Jardines de la Luna";
+    g_f[2] = "Todas las Hadas del Reino";
 
     //Inicializacion de las variables 
     int elegir_genero = 0;
