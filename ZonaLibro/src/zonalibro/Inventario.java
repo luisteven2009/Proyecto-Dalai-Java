@@ -102,7 +102,7 @@ public class Inventario {
                 do{
                 
                 System.out.println("---------------------");
-                System.out.println("Modificar Inventario: \n1. Libros Venta \n2. Libros Préstamo \n3. Información personal"); 
+                System.out.println("Modificar Inventario: \n1. Libros Venta \n2. Libros Préstamo \n3. Imprimir Inventarios \n4. Información personal"); 
                 elegir_inv = leer.nextInt();
                 
                 switch(elegir_inv) {
@@ -116,8 +116,13 @@ public class Inventario {
                         break;   
                         
                         case 3:
+                            switch_imp.inv_impresion();
+                        break;
+                        
+                        case 4:
                             info_personal.info_empleado();
                         break;
+                        
                                  
                                     
                             

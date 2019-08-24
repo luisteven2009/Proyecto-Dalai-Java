@@ -10,7 +10,7 @@ public class Usuario {
     
     Scanner leer = new Scanner(System.in);
     
-    String[] arrayProfile = new String[5];
+    String[] arrayProfile = new String[6];
     String[] accoutAlreadyCreated = new String[]{"", "JuanPerez", "", "password"};
     
     public void Registro(){
@@ -25,18 +25,18 @@ public class Usuario {
         
            
         System.out.println("Por favor ingrese los datos solicitados en el siguiente orden:");
-        System.out.println("1. nombre completo\n" +
-            "2. nombre de usuario\n" +
-            "3. correo electronico\n" +
-            "4. contraseña\n" +
-            "5. direccion fisica\n" +
-            "6. num id");
+        System.out.println("1. Nombre completo\n" +
+            "2. Nombre de usuario\n" +
+            "3. Correo electrónico\n" +
+            "4. Contraseña\n" +
+            "5. Dirección física\n" +
+            "6. Num id");
         
         for(int i=0;i<arrayProfile.length;i++){
             arrayProfile[i]=leer.nextLine();
         }//fin for ingreso de datos
         
-        System.out.println("Felicidades "+arrayProfile[1]+", su cuenta se ha creado exitosamente");
+        System.out.println("Felicidades "+arrayProfile[1]+", su cuenta se ha creado exitosamente!");
         
     }//fin method Registro
     
