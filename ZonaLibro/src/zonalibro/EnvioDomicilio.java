@@ -4,18 +4,22 @@
  * and open the template in the editor.
  */
 package zonalibro;
-
 import java.util.Scanner;
+
 public class EnvioDomicilio {
     Scanner leer = new Scanner(System.in);
     Carrito pago = new Carrito();
-    public float flete = 2500;
+    public int flete = 2500;
+    
+    //constructor
+    public EnvioDomicilio(Carrito pago){
+        this.pago = pago;
+    }//fin constructor
     
     public void totalEnvio(){
-        pago.SumProduct += flete;
-        System.out.println("El flete a pagar es: "+flete);
-        System.out.println("El precio total incluyendo el flete es "+pago.SumProduct);
-}
-    }
+        pago.añadirPrecio(flete);
+        System.out.println("El flete a pagar es: ¢"+flete);
+        System.out.println("El precio total incluyendo el flete es ¢"+pago.getCuenta());
+    }//fin totalEnvio
     
-    
+}//fin EnvioDomicilio

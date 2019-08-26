@@ -7,40 +7,24 @@ package zonalibro;
 
 /**
  *
- * @author Usuario
+ * @author WUM
  */
 class Carrito {
-    int precio = 7995;
-    int SumProduct = 0;
-    public void Total() {
-//        SumProduct +=precio;  
-        System.out.println("El monto a pagar es de: ₡"+precio);
-    }//fin Pago
-
+    
+    private int cuentaTotal = 0;
     
     //Constructor
     public Carrito() {
-        
-    }
-
-       
-    //get-set
-    public int getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(int precio) {
-        this.precio = precio;
-    }
-
-    public int getSumProduct() {
-        return SumProduct;
-    }
-
-    public void setSumProduct(int SumProduct) {
-        this.SumProduct = SumProduct;
-    }
-
+        cuentaTotal = 0;
+    }//fin contructor
     
+    //método para ir sumando los libros que se agreguen, entra como parámetro el precio de cada libro
+    public void añadirPrecio(int precio){
+        cuentaTotal += precio;
+    }//fin añadirPrecio
     
+    public int getCuenta(){
+        return cuentaTotal;
+    }//fin get
+          
 }//fin Carrito

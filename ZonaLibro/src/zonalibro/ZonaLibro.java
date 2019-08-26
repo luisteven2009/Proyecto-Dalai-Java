@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Usuario
+ * @author WUM
  */
 public class ZonaLibro {
 
@@ -25,18 +25,18 @@ public class ZonaLibro {
     Inventario invent = new Inventario();
     Producto product = new Producto();
     Usuario usuario = new Usuario();
-    EnvioDomicilio envio = new EnvioDomicilio();
+
 
     
     int opcion;
     do { 
-        System.out.println("Bienvenidos a ZONALIBRO \n-----MENÚ DE OPCIONES-----");
+        System.out.println("\nBienvenidos a ZONALIBRO \n-----MENÚ DE OPCIONES-----");
         System.out.println("1. Clientes \n2. Empleados \n3. Registro \n0. Salir");
         //debería colocarse un password por si un cliente digita 2
         opcion = leer.nextInt();
         switch(opcion) {
             case 1:
-                product.Comprar();
+                product.comprar();
             break;    
             case 2:
                 invent.Categoria();

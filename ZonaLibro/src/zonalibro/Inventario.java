@@ -14,11 +14,6 @@ public class Inventario {
     
     Scanner leer = new Scanner(System.in);    
     
-    public String novela[] = {"Anna Karenina", "La Dama de las Camelias", "El Conde de Montecristo"};
-    private int i = 3; //cantidad actual ocupada en el array
-    private int capac = 7;
-    private int agregar = 0;
-    
     //Creacion de objetos de las clases
     Switch_inv_LibrosVenta switch_LV = new Switch_inv_LibrosVenta();
     Switch_inv_LibrosPres switch_LP = new Switch_inv_LibrosPres();
@@ -60,6 +55,18 @@ public class Inventario {
         int cant_f1_v = 76;
         int cant_f2_v = 43;
         int cant_f3_v = 41;
+        
+        /*
+        Ventas
+        vectores privados (encapsulación), variables inicializadas con las cantidades disponibles
+        */
+        private int[] cant_aventura_v = {54,65,43};
+        private int[] cant_ciencia_v = {54,23,15};
+        private int[] cant_cuentos_v = {76,54,67};
+        private int[] cant_gotica_v = {87,16,65};
+        private int[] cant_policiaca_v = {43,51,52};
+        private int[] cant_paranormal_v = {53,65,43};
+        private int[] cant_fantastica_v = {76,43,41};
         
         //Prestamos
         int cant_a1_p = 23;
@@ -156,6 +163,39 @@ public class Inventario {
            
         
         }//Fin Categoria
+    
+    /*
+    va restando las cantidades cada vez que se agrega un libro a carrito
+    por medio del parámetro reconoce el índice de los vectores de cada género y lo resta
+    del inventario
+    */
+    public void restar_aventura_v(int indice){
+        cant_aventura_v[indice] --;
+    }//fin 
+    
+    public void restar_ciencia_v(int indice){
+        cant_ciencia_v[indice] --;
+    }
+    
+    public void restar_cuentos_v(int indice){
+        cant_cuentos_v[indice] --;
+    }
+    
+    public void restar_gotico_v(int indice){
+        cant_gotica_v[indice] --;
+    }
+    
+    public void restar_policiaca_v(int indice){
+        cant_policiaca_v[indice] --;
+    }
+    
+    public void restar_paranormal_v(int indice){
+        cant_paranormal_v[indice] --;
+    }
+    
+    public void restar_fantastica_v(int indice){
+        cant_fantastica_v[indice] --;
+    }
              
     
 }//fin Inventario
