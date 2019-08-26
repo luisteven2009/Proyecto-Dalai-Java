@@ -169,14 +169,18 @@ public class Producto {
         //cambio de estado en la bandera booleana indica que el libro se añadió al carrito
         if(esta==true) {
             System.out.println("-----Información Pick up-----");
-            System.out.println(".Envío a Domicilio: 1 \n.Recoger en tienda: 2");
+            System.out.println(".Envío a Domicilio: 1 \n.Recoger en tienda: 2 \n.Rentar: 3");
             int opc = leer.nextInt();
             if(opc==1){
                 envdom.totalEnvio();
             }//fin if  
-            else {
+            else if(opc==2){
                 System.out.println("El precio total es de: ¢"+pago.getCuenta());
-            }//fin else
+            }//fin if 2
+            else{
+                System.out.println("Aviso! \nEl libro será prestado por un lapso de 7 dias. \nCada dia extra se cobrará un extra de ¢1000");
+                System.out.println("El precio total a pagar en este momento es de: ¢"+pago.getCuenta());
+            }
         }//fin if
 
     }//fin Comprar
