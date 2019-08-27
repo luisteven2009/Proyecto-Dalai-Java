@@ -11,7 +11,6 @@ public class Usuario {
     Scanner leer = new Scanner(System.in);
     
     String[] arrayProfile = new String[6];
-    String[] accoutAlreadyCreated = new String[]{"", "JuanPerez", "", "password"};
     
     public void Registro(){
         /*Estructura del array
@@ -37,17 +36,42 @@ public class Usuario {
         }//fin for ingreso de datos
         
         System.out.println("Felicidades "+arrayProfile[1]+", su cuenta se ha creado exitosamente!");
+        System.out.println("---------------------------------------------------------");
+        
+        System.out.println("Te damos la bienvenida con un regalo sorpresa!! \nElige un numero del 1 al 5");
+        int regalo=0;
+        regalo = leer.nextInt();
+        switch(regalo){
+            case 1:
+                System.out.println("Haz ganado el libro de Harry Potter");
+                break;
+            case 2:
+                System.out.println("Haz ganado una BOTELLA CLIMA STRIPES 500ML");
+                break;
+            case 3:
+                System.out.println("Haz ganado COSTA RICA MAP, un libro de National Geographic");
+                break;
+            case 4:
+                System.out.println("Haz ganado un separalibros a escoger con tu proxima compra de un libro");
+                break;
+            case 5:
+                System.out.println("Haz ganado un notebook");
+                break;
+        
+        }//fin switch
+        System.out.println("---------------------------------------------------------");
         
     }//fin method Registro
     
     public void inicioSesion(){
+        System.out.println("INICIO DE SESION DE USUARIO");
         System.out.println("Ingrese su Nombre de Usuario");
-        arrayProfile[2] = leer.nextLine();
+        String respUserN = leer.next();
         
-        if (arrayProfile[1].equalsIgnoreCase(accoutAlreadyCreated[1])){  
+        if (respUserN.equals(arrayProfile[1])){  
             System.out.println("Ingrese su Contraseña");
-            arrayProfile[3] = leer.nextLine();
-            if (arrayProfile[3].equalsIgnoreCase(accoutAlreadyCreated[3])){  
+            String respUserP = leer.next();
+            if (respUserP.equals(arrayProfile[3])){  
                 System.out.println("Inicio de sesion exitoso!!");
           } 
         } 

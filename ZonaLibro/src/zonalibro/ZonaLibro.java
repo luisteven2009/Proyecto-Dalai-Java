@@ -26,7 +26,6 @@ public class ZonaLibro {
     Producto product = new Producto();
     Usuario usuario = new Usuario();
 
-
     
     int opcion;
     do { 
@@ -36,6 +35,8 @@ public class ZonaLibro {
         opcion = leer.nextInt();
         switch(opcion) {
             case 1:
+                usuario.Registro();
+                usuario.inicioSesion();
                 product.comprar();
             break;    
             case 2:
